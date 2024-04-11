@@ -59,7 +59,7 @@ public class ExtjsUtils {
 
       component = selenium.getEval(String.format("window.findComponentByText('%s',null)", textOrLable));
     }
-
+    System.out.println("Commit for merge");
     return getComponentById(component);
 
   }
